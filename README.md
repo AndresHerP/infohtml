@@ -1,1 +1,78 @@
-# infohtml
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <style>
+        /* Estilos básicos para que la página se vea bien */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #2c3e50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a mi Página Web</h1>
+        <p>Un espacio para compartir mi información básica</p>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Esta es mi nueva página web. Aquí puedes escribir una breve introducción sobre quién eres, de qué trata tu proyecto o cuál es el propósito de este sitio.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Lo que ofrezco</h2>
+            <ul>
+                <li><strong>Servicio / Tema 1:</strong> Descripción breve.</li>
+                <li><strong>Servicio / Tema 2:</strong> Descripción breve.</li>
+                <li><strong>Servicio / Tema 3:</strong> Descripción breve.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme enviando un correo a: <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
